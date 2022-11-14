@@ -617,10 +617,10 @@ img {
 }
 
 .close-modal {
+  position: absolute;
   width: 30px;
   height: 30px;
+  top: 8px;
+  right: 8px;
   border-radius: 50%;
-}
-
-.close-icon {
 }
