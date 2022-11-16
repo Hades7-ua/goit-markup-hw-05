@@ -52,7 +52,7 @@
     <main>
       <section class="hero overlay">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button-primary">Замовити послугу</button>
+        <button type="button" class="button-primary" data-modal-open>Замовити послугу</button>
       </section>
       <section class="section benefits">
         <div class="container">
@@ -433,15 +433,16 @@
 
       <!--Модальне вікно-->
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="close-modal">
+        <button class="close-modal" data-modal-close>
           <svg class="close-icon" width="18" height="18">
           <use href="./images/symbol-defs.svg#icon-button-close"></use> 
         </svg>
       </button>
       </div>
     </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
 
